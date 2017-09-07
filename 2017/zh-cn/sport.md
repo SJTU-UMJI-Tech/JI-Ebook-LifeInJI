@@ -62,6 +62,8 @@ layout: default
 
 需提前在体育系的网站([http://sjtuedu.iydsj.com/](http://sjtuedu.iydsj.com/))预定,由于太过抢手且只有一块场地需要守着凌晨预定,定不到是常有的事。
 
+![](../imgs/sport-map.png)
+
 ### 比赛简介
 
 | 比赛名称 | 新生杯(院级) | 新生杯(校级) | 密院杯 | 体总杯 |
