@@ -46,14 +46,133 @@
 
             {% if page.menu %}
             {% include {{ page.menu }} %}
+            <style>
+                #menu {
+                    margin-left: 10px;
+                }
+
+                #menu .menu-padding {
+                    padding-left: 20px;
+                }
+
+                #menu a {
+                    color: #474747;
+                }
+
+                #menu a .menu-active {
+                    color: #2879d0;
+                }
+
+                #menu h1 {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+                    font-size: 22px;
+                    font-weight: normal;
+                    color: #474747;
+                    text-indent: 6px;
+                    letter-spacing: -1px
+                }
+
+                #menu h1:before {
+                    padding-right: 0.3em;
+                    margin-left: -0.9em;
+                    color: #9ddcff;
+                    content: ""
+                }
+
+                #menu h2 {
+                    margin-top: 8px;
+                    margin-bottom: 8px;
+                    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: #474747;
+                    text-indent: 4px
+                }
+
+                #menu h2:before {
+                    padding-right: 0.3em;
+                    margin-left: -1.5em;
+                    content: "/";
+                    color: #9ddcff
+                }
+
+                #menu h3 {
+                    margin-bottom: 8px;
+                    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+                    font-size: 15px;
+                    font-weight: bold;
+                    color: #474747;
+                    text-indent: 3px
+                }
+
+                #menu h3:before {
+                    padding-right: 0.3em;
+                    margin-left: -2em;
+                    content: "//";
+                    color: #9ddcff
+                }
+
+                #menu h4 {
+                    margin-bottom: 8px;
+                    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #474747;
+                    text-indent: 3px
+                }
+
+                #menu h4:before {
+                    padding-right: 0.3em;
+                    margin-left: -2.8em;
+                    content: "///";
+                    color: #9ddcff
+                }
+
+                #menu h5 {
+                    margin-bottom: 8px;
+                    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+                    font-size: 12px;
+                    color: #474747;
+                    text-indent: 3px
+                }
+
+                #menu h5:before {
+                    padding-right: 0.3em;
+                    margin-left: -3.2em;
+                    content: "////";
+                    color: #9ddcff
+                }
+
+                #menu h6 {
+                    margin-bottom: 8px;
+                    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+                    font-size: 10px;
+                    color: #474747;
+                    text-indent: 3px
+                }
+
+                #menu h6:before {
+                    padding-right: 0.3em;
+                    margin-left: -3.7em;
+                    content: "/////";
+                    color: #9ddcff
+                }
+            </style>
             <div id="menu"></div>
             <script type="text/javascript">
                 var generateContent = function (level, content, href) {
                     level = Math.min(Math.max(level, 0), 5);
+                    href = base_url + href;
                     var html = '';
                     html += '<h' + level + '>';
                     if (href) {
-                        html += '<a href="' + base_url + href + '">';
+                        html += '<a href="' + href + '" ';
+                        if (href === page_url) {
+                            html += 'class="active" ';
+                        }
+                        html += '>';
                         html += content;
                         html += '</a>'
                     } else {
@@ -65,17 +184,19 @@
 
                 var generateChildren = function (level, data) {
                     if (!data) return "";
-                    var html = "";
+                    var html = '<div class="menu-padding">';
                     for (var i = 0; i < data.length; i++) {
                         html += generateContent(level, data[i].name, data[i].href);
                         html += generateChildren(level + 1, data[i].children);
                     }
+                    html += "</div>";
                     return html;
                 };
 
                 var div = document.getElementById("menu");
                 var html = "";
                 var base_url = menu.base_href || '/';
+                var page_url = '{{ page.url }}';
                 html += generateContent(2, menu.name, '/');
                 html += generateChildren(3, menu.children);
                 div.innerHTML = html;
