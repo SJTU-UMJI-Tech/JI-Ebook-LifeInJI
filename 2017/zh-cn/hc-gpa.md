@@ -1,5 +1,6 @@
 ---
 layout: default
+menu: 2017-zh-cn-menu.html
 ---
 
 # 诚信守则和平均绩点

@@ -1,5 +1,6 @@
 ---
 layout: default
+menu: 2017-zh-cn-menu.html
 ---
 
 # 其他学生组织

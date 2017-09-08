@@ -5,6 +5,6 @@ menu: 2017-zh-cn-menu.html
 
 # JI 小百科
 
+Origin By 学生会宣传部
 
-- gjhghj
-- 345se5d
+

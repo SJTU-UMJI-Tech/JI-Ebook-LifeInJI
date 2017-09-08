@@ -169,10 +169,10 @@
             <script type="text/javascript">
                 var generateContent = function (level, content, href) {
                     level = Math.min(Math.max(level, 0), 5);
-                    href = base_url + href;
                     var html = '';
                     html += '<h' + level + '>';
                     if (href) {
+                        href = base_url + href;
                         html += '<a href="' + site_url + href + '" ';
                         if (href === page_url) {
                             html += 'class="menu-active" ';

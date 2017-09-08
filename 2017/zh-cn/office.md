@@ -1,5 +1,6 @@
 ---
 layout: default
+menu: 2017-zh-cn-menu.html
 ---
 
 # 办公室简介
