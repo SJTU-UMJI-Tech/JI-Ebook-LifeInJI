@@ -47,6 +47,7 @@ menu: 2017-zh-cn-menu.html
 | U (Uncompleted) | 0 |
 | N (Null, absent) | 0 |
 
+![](../imgs/gpa-zh-cn.png)
 
 
 
