@@ -203,7 +203,7 @@
                 var div = document.getElementById("menu");
                 var html = "";
                 var site_url = '{{ site.url }}';
-                var base_url = menu.base_href || '/';
+                var base_url = menu.href || '/';
                 var page_url = '{{ page.url }}';
                 html += generateContent(1, menu.name, '/');
                 html += generateChildren(2, menu.children);
