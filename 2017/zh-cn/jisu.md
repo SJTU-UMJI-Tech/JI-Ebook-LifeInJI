@@ -22,7 +22,7 @@ menu: 2017-zh-cn-menu.html
 范哲良（左）
 刘嘉晨（右）
 
-![](../imgs/presidium.png)
+![](../imgs/presidium.jpg)
 
 ## 文艺部
 
@@ -41,9 +41,9 @@ menu: 2017-zh-cn-menu.html
 李睿 （下左）
 张子虓（下右）
 
-![](../imgs/art-enternment.png)
+![](../imgs/art-enternment.jpg)
 
-![](../imgs/art-enternment-qr.png)
+![](../imgs/art-enternment-qr.jpg)
 
 ## 事业部
 
@@ -61,7 +61,7 @@ menu: 2017-zh-cn-menu.html
 石一茗（右二）
 柯正 （ 右一）
 
-![](../imgs/ji-career.png)
+![](../imgs/ji-career.jpg)
 
 ## 社团部
 
@@ -79,9 +79,9 @@ menu: 2017-zh-cn-menu.html
 艾雨晨（右二）
 Marina Chen（右一)
 
-![](../imgs/club.png)
+![](../imgs/club.jpg)
 
-![](../imgs/club-qr.png)
+![](../imgs/club-qr.jpg)
 
 ## 外联部
 
@@ -107,7 +107,7 @@ Marina Chen（右一)
 孙雨岑（右二）
 朱元坤（右一）
 
-![](../imgs/liaison.png)
+![](../imgs/liaison.jpg)
 
 ## 新闻部
 
@@ -128,9 +128,9 @@ Marina Chen（右一)
 阮智浩（下中）
 王博文（下右）
 
-![](../imgs/media.png)
+![](../imgs/media.jpg)
 
-![](../imgs/media-qr.png)
+![](../imgs/media-qr.jpg)
 
 ## 内联部
 
@@ -150,7 +150,7 @@ Marina Chen（右一)
 刘书恒（前三）
 钱敏佳（前二）
 
-![](../imgs/organization.png)
+![](../imgs/organization.jpg)
 
 ## 宣传部
 
@@ -186,9 +186,9 @@ Marina Chen（右一)
 王嫣然（左二）
 杜轲 （右一）
 
-![](../imgs/publicity.png)
+![](../imgs/publicity.jpg)
 
-![](../imgs/publicity-qr.png)
+![](../imgs/publicity-qr.jpg)
 
 ## 体育部
 
@@ -207,7 +207,7 @@ Marina Chen（右一)
 曾繁昊 （左三）
 黄天淳 （右一）
 
-![](../imgs/sports.png)
+![](../imgs/sports.jpg)
 
 ## 技术部
 
@@ -225,4 +225,4 @@ Marina Chen（右一)
 贾治峰（右二）
 张怡斐（右一）
 
-![](../imgs/technology.png)
+![](../imgs/technology.jpg)

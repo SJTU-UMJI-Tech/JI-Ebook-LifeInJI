@@ -63,7 +63,7 @@ menu: 2017-zh-cn-menu.html
 
 需提前在体育系的网站([http://sjtuedu.iydsj.com/](http://sjtuedu.iydsj.com/))预定,由于太过抢手且只有一块场地需要守着凌晨预定,定不到是常有的事。
 
-![](../imgs/sport-map.png)
+![](../imgs/sport-map.jpg)
 
 # 比赛简介
 
