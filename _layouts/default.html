@@ -49,6 +49,7 @@
             <style>
                 #menu {
                     margin-left: 10px;
+                    margin-bottom: 30px;
                 }
 
                 #menu .menu-padding {
@@ -172,7 +173,7 @@
                     var html = '';
                     html += '<h' + level + '>';
                     if (href) {
-                        html += '<a href="' + href + '" ';
+                        html += '<a href="' + site_url + href + '" ';
                         if (href === page_url) {
                             html += 'class="menu-active" ';
                         }
@@ -199,6 +200,7 @@
 
                 var div = document.getElementById("menu");
                 var html = "";
+                var site_url = '{{ site.url }}';
                 var base_url = menu.base_href || '/';
                 var page_url = '{{ page.url }}';
                 html += generateContent(1, menu.name, '/');
