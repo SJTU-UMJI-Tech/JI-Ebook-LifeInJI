@@ -7,6 +7,8 @@ menu: 2017-zh-cn-menu.html
 
 密西根学院学生会是在学院党委领导和团委指导下，代表上海交通大学密西根学院全体本科学生的群众组织，其宗旨是代表全体学生的利益并全心全意为其服务。学生会的权力机关为学院学生代表大会及其常务委员会，执行机构为学生会主席团及其领导下的九大部门。
 
+![](../imgs/jisu-qrcode.jpg)
+
 ## 主席团
 
 ### 简介
@@ -22,7 +24,7 @@ menu: 2017-zh-cn-menu.html
 范哲良（左）
 刘嘉晨（右）
 
-![](../imgs/presidium.jpg)
+![](../imgs/jisu-presidium.jpg)
 
 ## 文艺部
 
@@ -41,9 +43,9 @@ menu: 2017-zh-cn-menu.html
 李睿 （下左）
 张子虓（下右）
 
-![](../imgs/art-enternment.jpg)
+![](../imgs/jisu-art-enternment.jpg)
 
-![](../imgs/art-enternment-qr.jpg)
+![](../imgs/jisu-art-enternment-qrcode.jpg)
 
 ## 事业部
 
@@ -61,7 +63,7 @@ menu: 2017-zh-cn-menu.html
 石一茗（右二）
 柯正 （ 右一）
 
-![](../imgs/ji-career.jpg)
+![](../imgs/jisu-career.jpg)
 
 ## 社团部
 
@@ -79,9 +81,9 @@ menu: 2017-zh-cn-menu.html
 艾雨晨（右二）
 Marina Chen（右一)
 
-![](../imgs/club.jpg)
+![](../imgs/jisu-club.jpg)
 
-![](../imgs/club-qr.jpg)
+![](../imgs/jisu-club-qrcode.jpg)
 
 ## 外联部
 
@@ -107,7 +109,7 @@ Marina Chen（右一)
 孙雨岑（右二）
 朱元坤（右一）
 
-![](../imgs/liaison.jpg)
+![](../imgs/jisu-liaison.jpg)
 
 ## 新闻部
 
@@ -128,9 +130,9 @@ Marina Chen（右一)
 阮智浩（下中）
 王博文（下右）
 
-![](../imgs/media.jpg)
+![](../imgs/jisu-media.jpg)
 
-![](../imgs/media-qr.jpg)
+![](../imgs/jisu-media-qrcode.jpg)
 
 ## 内联部
 
@@ -150,7 +152,7 @@ Marina Chen（右一)
 刘书恒（前三）
 钱敏佳（前二）
 
-![](../imgs/organization.jpg)
+![](../imgs/jisu-organization.jpg)
 
 ## 宣传部
 
@@ -186,9 +188,9 @@ Marina Chen（右一)
 王嫣然（左二）
 杜轲 （右一）
 
-![](../imgs/publicity.jpg)
+![](../imgs/jisu-publicity.jpg)
 
-![](../imgs/publicity-qr.jpg)
+![](../imgs/jisu-publicity-qrcode.jpg)
 
 ## 体育部
 
@@ -207,7 +209,7 @@ Marina Chen（右一)
 曾繁昊 （左三）
 黄天淳 （右一）
 
-![](../imgs/sports.jpg)
+![](../imgs/jisu-sports.jpg)
 
 ## 技术部
 
@@ -225,4 +227,4 @@ Marina Chen（右一)
 贾治峰（右二）
 张怡斐（右一）
 
-![](../imgs/technology.jpg)
+![](../imgs/jisu-technology.jpg)
