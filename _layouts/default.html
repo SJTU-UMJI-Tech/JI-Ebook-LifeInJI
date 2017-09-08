@@ -170,19 +170,21 @@
                 var generateContent = function (level, content, href) {
                     level = Math.min(Math.max(level, 0), 5);
                     var html = '';
+                    var _href;
                     html += '<h' + level + '>';
                     if (href) {
                         href = base_url + href;
-                        html += '<a href="' + site_url + href + '" ';
-                        if (href === page_url) {
-                            html += 'class="menu-active" ';
-                        }
-                        html += '>';
-                        html += content;
-                        html += '</a>'
+                        _href = site_url + href;
                     } else {
-                        html += content;
+                        _href = 'javascript:void(0);';
                     }
+                    html += '<a href="' + _href + '" ';
+                    if (href === page_url) {
+                        html += 'class="menu-active" ';
+                    }
+                    html += '>';
+                    html += content;
+                    html += '</a>';
                     html += '</h' + level + '>\n';
                     return html;
                 };
